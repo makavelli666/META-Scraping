@@ -9,13 +9,14 @@ Avant d'utiliser le script, assurez-vous de configurer les tokens d'accès pour 
 
 ## Utilisation
 
-    Installez les dépendances nécessaires en exécutant la commande suivante :
+ Installez les dépendances nécessaires en exécutant la commande suivante :
 
 
-pip install instaloader facebook-sdk pymongo
+    pip install instaloader facebook-sdk pymongo
 
-    Exécutez le script main.py pour collecter des posts de Facebook et Instagram.
+Exécutez le script main.py pour collecter des posts de Facebook et Instagram.
 
-python main.py
+    python main.py
 
 Assurez-vous que MongoDB est en cours d'exécution localement et accessible à l'adresse mongodb://localhost:27017/.
+N'oubliez pas de personnaliser les configurations selon vos besoins avant d'exécuter le script.
